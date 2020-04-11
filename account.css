@@ -1,0 +1,98 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(image265.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.log
+{
+    width:350px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.733);
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border: 5px outset rgb(0, 113, 241);
+    border-radius: 20px;
+}
+
+.avatar
+{
+    width:  100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1
+{
+    margin: 0;
+    padding: 0 0 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.log p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 113, 241);
+}
+
+.log input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.log input[type="text"], input[type="password"]
+{
+    border: 1px ;
+    border-bottom: 4px solid #000;
+    background: transparent; 
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.log input[type="submit"]
+{
+    border: 4px outset black;
+    outline: none;
+    height: 40px;
+    background: rgb(0, 113, 241);
+    color: #000;
+    font-size: 25px;    
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.log input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+}
+
+.log a
+{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(0, 113, 241);
+}
+.log a:hover
+{
+    color: #ffc107;
+}

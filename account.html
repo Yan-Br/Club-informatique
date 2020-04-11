@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ACCOUNT TUTO</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="account.css">
+	</head>
+
+	<body>
+        <div class="log">
+            <img src="avatar.png" class="avatar">
+            <h1>Login Here</h1>
+            <form method="POST" action="account.php">
+                <p>Username</p>
+                <input type="text" name="user" placeholder="Enter Username" required="required" pattern="[a-zA-Z_0-9]{4,15}" title="Votre nom d'utilisateur ne doit comprendre que des lettres,des chiffres, et le tiret de 8! Au moins 4 caractères et au plus 15">
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Enter Password" minlength="8" pattern="[a-zA-Z0-9]{8,20}" required="required" title="Votre mot de passe ne doit comprendre que des lettres et des chiffres! Au moins 8 caractères et au plus 20">
+                <input type="submit" name="" value="Login">
+                <a href="#">Lost your Password?</a>
+                <br>
+                <a href="#">Don't have an account?</a>
+            </form>
+        </div>
+		
+	</body>
+
+</html>
